@@ -9,8 +9,8 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="w-full h-screen relative left-0 bg-dark-100 flex justify-center ">
-      <div style={{ width: "100%", height: "100vh", position: "relative" }}>
+    <div className="w-full h-screen absolute bg-dark-100 flex justify-center">
+      <div className="z-0" style={{ width: "100%", height: "100vh", position: "relative"  }}>
         <Particles
           particleColors={["#ffffff", "#ffffff"]}
           particleCount={200}
