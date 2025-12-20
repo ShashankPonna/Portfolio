@@ -7,7 +7,7 @@ const Nav = () => {
     <nav className="fixed w-full z-50 text-white bg-dark-100 backdrop-blur-sm py-4 px-8">
       <div className="flex items-center justify-between">
         <div className="">
-          <a className="text-blue-500 text-4xl font-bold">Shashank</a>
+          <a href="#" className="text-blue-500 text-4xl font-bold">Shashank</a>
         </div>
         <div className="hidden md:flex md:space-x-5 lg:space-x-10 ">
           <a
