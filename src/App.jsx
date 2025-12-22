@@ -1,16 +1,13 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Particles from "./Particle";
-function App() {
-  const [count, setCount] = useState(0);
 
+function App() {
   return (
-    <div className="w-full h-screen absolute bg-dark-100 flex justify-center">
-      <div className="z-0" style={{ width: "100%", height: "100vh", position: "relative"  }}>
+    <div className="relative min-h-screen overflow-hidden bg-dark-100">
+      
+      {/* ===== Background Layer (Interactive) ===== */}
+      <div className="absolute inset-0 z-0">
         <Particles
           particleColors={["#ffffff", "#ffffff"]}
           particleCount={200}
@@ -22,13 +19,14 @@ function App() {
           disableRotation={false}
         />
       </div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route></Route>
-        <Route></Route>
-        <Route></Route>
-        <Route></Route>
-      </Routes>
+
+      {/* ===== Content Layer ===== */}
+      <div className="relative z-10 ">
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
+
     </div>
   );
 }

@@ -7,47 +7,47 @@ const Nav = () => {
     <nav className="fixed w-full z-50 text-white bg-dark-100 backdrop-blur-sm py-4 px-8">
       <div className="flex items-center justify-between">
         <div className="">
-          <a href="#" className="text-blue-500 text-4xl font-bold">Shashank</a>
+          <a href="#" className="text-blue-500 text-4xl font-bold pointer-events-auto">Shashank</a>
         </div>
         <div className="hidden md:flex md:space-x-5 lg:space-x-10 ">
           <a
             href="#"
-            className="group relative transition duration-300 hover:text-blue-500 md:text-xl lg:text-2xl  "
+            className="pointer-events-auto group relative transition duration-300 hover:text-blue-500 md:text-xl lg:text-2xl  "
           >
             <span className="">Home</span>
             <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
             href="#about"
-            className="group relative transition duration-300 hover:text-blue-500 md:text-xl lg:text-2xl"
+            className="pointer-events-auto group relative transition duration-300 hover:text-blue-500 md:text-xl lg:text-2xl"
           >
             <span className="">About</span>
             <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
             href="#skills"
-            className="group relative transition duration-300 hover:text-blue-500 md:text-xl lg:text-2xl"
+            className="pointer-events-auto group relative transition duration-300 hover:text-blue-500 md:text-xl lg:text-2xl"
           >
             <span className="">Skills</span>
             <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
             href="#projects"
-            className="group relative transition duration-300 hover:text-blue-500 md:text-xl lg:text-2xl"
+            className="pointer-events-auto group relative transition duration-300 hover:text-blue-500 md:text-xl lg:text-2xl"
           >
             <span className="">Projects</span>
             <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
             href="#education"
-            className="group relative transition duration-300 hover:text-blue-500 md:text-xl lg:text-2xl"
+            className="pointer-events-auto group relative transition duration-300 hover:text-blue-500 md:text-xl lg:text-2xl"
           >
             <span className="">Eduction</span>
             <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
             href="#contact"
-            className="group relative transition duration-300 hover:text-blue-500 md:text-xl lg:text-2xl"
+            className="pointer-events-auto group relative transition duration-300 hover:text-blue-500 md:text-xl lg:text-2xl"
           >
             <span className="">Contact</span>
             <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>

@@ -15,18 +15,20 @@
   --color-blue:#3B82F6;
 }
 
-.typewriter{
-  overflow : hidden;
+.typewriter {
+  overflow: hidden;
   border-right: 0.30rem solid blue;
-  white-space:nowrap;
-  width: 20px;
-  animation:typing 3s steps(20,end) forwards, blink-caret 0.75s step-end 4;
+  white-space: nowrap;
+  width: 28ch;
+  animation: typing 3s steps(20, end) forwards, blink-caret 0.75s step-end infinite;
 }
 
-@keyframes typing{
-  from {width : 0};
-  to{width:15ch}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 27ch; }
 }
+
 @keyframes blink-caret{
     from, to {border-color:transparent;}
     50% {border-color:blue}
