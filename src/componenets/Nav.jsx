@@ -4,10 +4,19 @@ import { FaBars, FaXmark } from "react-icons/fa6";
 const Nav = () => {
   const [menu, setmenu] = useState(false);
   return (
-    <nav className="fixed w-full z-50 text-white bg-dark-100 backdrop-blur-sm py-4 px-8">
+    <nav
+      className={`fixed w-full z-50 text-white bg-dark-100 backdrop-blur-sm px-8
+    ${menu ? "pb-8 py-4"  : "py-4"}
+  `}
+    >
       <div className="flex items-center justify-between">
         <div className="">
-          <a href="#" className="text-blue-500 text-4xl font-bold pointer-events-auto">Shashank</a>
+          <a
+            href="#"
+            className="text-blue-500 text-4xl font-bold pointer-events-auto"
+          >
+            Shashank
+          </a>
         </div>
         <div className="hidden md:flex md:space-x-5 lg:space-x-10 ">
           <a
@@ -72,7 +81,7 @@ const Nav = () => {
         </div>
       </div>
       {menu && (
-        <div className="md:hidden flex flex-col items-center justify-center h-screen mt-5 gap-5 bg-dark-300 rounded-md text-2xl">
+        <div className="md:hidden flex flex-col items-center justify-center py-5 mt-5 gap-5 bg-dark-300 rounded-md text-2xl">
           <a
             href="#"
             onClick={() => {

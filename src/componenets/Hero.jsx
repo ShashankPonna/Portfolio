@@ -32,13 +32,13 @@ const Hero = () => {
           <div className="flex flex-row px-5 gap-5 justify-center md:justify-start">
             <a
               href="#"
-              className="px-6 py-2 rounded-md bg-blue-500 hover:bg-blue-700 transition font-semibold"
+              className="px-6 py-2 rounded-md bg-blue-500 hover:bg-transparent border-2 border-transparent hover:border-blue-500 transition font-semibold"
             >
               Resume
             </a>
             <a
               href="#contact"
-              className="px-6 py-2 rounded-md border-2 font-semibold hover:bg-white/20 transition"
+              className="px-6 py-2 rounded-md border-2 font-semibold  hover:border-blue-500 hover:bg-white/20 transition"
             >
               Contact Me
             </a>

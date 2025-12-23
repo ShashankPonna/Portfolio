@@ -1,82 +1,63 @@
-// import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
+import { FaReact } from "react-icons/fa";
+import { FaServer } from "react-icons/fa";
+import { GiBrain } from "react-icons/gi";
+import { SiCodecrafters } from "react-icons/si";
 
-import profileImg from '../assets/profile.jpeg';
-import projectImg1 from '../assets/project1.avif';
-import projectImg2 from '../assets/project2.avif';
-import projectImg3 from '../assets/project3.avif';
-import projectImg4 from '../assets/project4.avif';
-import projectImg5 from '../assets/project5.avif';
-import projectImg6 from '../assets/project6.avif';
-
+import profileImg from "../assets/profile.jpeg";
+import projectImg1 from "../assets/project1.avif";
+import projectImg2 from "../assets/project2.avif";
+import projectImg3 from "../assets/project3.avif";
+import projectImg4 from "../assets/project4.avif";
+import projectImg5 from "../assets/project5.avif";
+import projectImg6 from "../assets/project6.avif";
 
 export const assets = {
-    profileImg,
-}
+  profileImg,
+};
 
-
-// export const aboutInfo = [
-//     {
-//       icon: FaLightbulb,
-//       title: 'Innovative',
-//       description: 'I love creating unique solutions to complex problems with cutting-edge technologies.',
-//       color: 'text-purple'
-//     },
-//     {
-//       icon: FaPaintBrush,
-//       title: 'Design Oriented',
-//       description: 'Beautiful design and user experience are at the heart of everything I create.',
-//       color: 'text-pink'
-//     },
-//     {
-//       icon: FaCode,
-//       title: 'Clean Code',
-//       description: 'I write maintainable, efficient code following best practices and modern patterns.',
-//       color: 'text-blue'
-//     }
-//   ];
-
-
-
-// export const skills = [
-//   {
-//     title: 'Frontend Development',
-//     icon: FaReact,
-//     description: 'Building responsive and interactive user interfaces with modern frameworks.',
-//     tags: ['React', 'Vue.js', 'Angular', 'TypeScript']
-//   },
-//   {
-//     title: 'Backend Development',
-//     icon: FaServer,
-//     description: 'Creating robust server-side applications and RESTful APIs.',
-//     tags: ['Node.js', 'Express', 'Django', 'Laravel']
-//   },
-//   {
-//     title: 'Database Management',
-//     icon: FaDatabase,
-//     description: 'Designing and optimizing databases for performance and scalability.',
-//     tags: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase']
-//   },
-//   {
-//     title: 'Mobile Development',
-//     icon: FaMobileAlt,
-//     description: 'Building cross-platform mobile applications with modern tools.',
-//     tags: ['React Native', 'Flutter', 'Ionic', 'Swift']
-//   },
-//   {
-//     title: 'Cloud & DevOps',
-//     icon: FaCloud,
-//     description: 'Deploying and managing applications in cloud environments.',
-//     tags: ['AWS', 'Docker', 'Kubernetes', 'CI/CD']
-//   },
-//   {
-//     title: 'Tools & Technologies',
-//     icon: FaTools,
-//     description: 'Essential tools and technologies I use in my development workflow.',
-//     tags: ['Git & GitHub', 'Webpack', 'Figma', 'Jest']
-//   }
-// ];
-
-
+export const skills = [
+  {
+    title: "Frontend Development",
+    icon: FaReact,
+    description:
+      "Building responsive and interactive user interfaces with a strong focus on usability and clean design.",
+    tags: [
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "React.js",
+      "Tailwind CSS",
+      "Responsive Design",
+    ],
+  },
+  {
+    title: "Backend & Database",
+    icon: FaServer,
+    description:
+      "Developing server-side applications and RESTful APIs with efficient data handling and authentication.",
+    tags: [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "CRUD",
+      "Authentication",
+    ],
+  },
+  {
+    title: "Programming Languages",
+    icon: SiCodecrafters,
+    description:
+      "Using multiple programming languages for web development and problem-solving tasks.",
+    tags: ["C++", "C", "Python", "JavaScript"],
+  },
+  {
+    title: "Problem Solving & DSA",
+    icon: GiBrain,
+    description:
+      "Strengthening logical thinking and algorithmic problem-solving skills alongside development.",
+    tags: ["DSA", "C++", "Arrays", "Strings", "Recursion", "STL", "Complexity"],
+  },
+];
 
 // export const projects = [
 //   {
@@ -134,7 +115,6 @@ export const assets = {
 //     code: "#",
 //   }
 // ];
-
 
 // export const workData = [
 //   {
