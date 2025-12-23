@@ -1,7 +1,18 @@
-import { FaReact } from "react-icons/fa";
-import { FaServer } from "react-icons/fa";
+import {
+  FaReact,
+  FaServer,
+  FaNodeJs,
+  FaDatabase,
+  FaJs,
+  FaCss3Alt,
+  FaVuejs,
+  FaFire,
+  FaRobot,
+} from "react-icons/fa";
+
 import { GiBrain } from "react-icons/gi";
-import { SiCodecrafters } from "react-icons/si";
+import { SiCodecrafters, SiStripe } from "react-icons/si";
+import { FaCloud, FaCloudSun } from "react-icons/fa6";
 
 import profileImg from "../assets/profile.jpeg";
 import projectImg1 from "../assets/project1.avif";
@@ -35,13 +46,7 @@ export const skills = [
     icon: FaServer,
     description:
       "Developing server-side applications and RESTful APIs with efficient data handling and authentication.",
-    tags: [
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "CRUD",
-      "Authentication",
-    ],
+    tags: ["Node.js", "Express", "MongoDB", "CRUD", "Authentication"],
   },
   {
     title: "Programming Languages",
@@ -59,62 +64,68 @@ export const skills = [
   },
 ];
 
-// export const projects = [
-//   {
-//     title: "E-Commerce Platform",
-//     description: "A full-featured online store with shopping cart, user authentication, and payment processing.",
-//     image: projectImg1,
-//     tech: ["React", "Node.js", "MongoDB", "Stripe"],
-//     icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
-//     demo: "#",
-//     code: "#",
-//   },
-//   {
-//     title: "Task Management App",
-//     description: "A productivity application with drag-and-drop functionality and real-time updates.",
-//     image: projectImg2,
-//     tech: ["Vue.js", "Firebase", "Tailwind CSS", "WebSockets"],
-//     icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
-//     demo: "#",
-//     code: "#",
-//   },
-//   {
-//     title: "Fitness Tracker",
-//     description: "A mobile app for tracking workouts, nutrition, and health metrics.",
-//     image: projectImg3,
-//     tech: ["React Native", "GraphQL", "MySQL", "Chart.js"],
-//     icons: [FaReact, FaDatabase],
-//     demo: "#",
-//     code: "#",
-//   },
-//   {
-//     title: "Portfolio Website",
-//     description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
-//     image: projectImg4,
-//     tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
-//     icons: [FaReact, FaCloud],
-//     demo: "#",
-//     code: "#",
-//   },
-//   {
-//     title: "Chat App",
-//     description: "A real-time chat application with group messaging, emojis, and file sharing.",
-//     image: projectImg5,
-//     tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
-//     icons: [FaReact, FaNodeJs, FaDatabase ],
-//     demo: "#",
-//     code: "#",
-//   },
-//   {
-//     title: "AI Image Generator",
-//     description: "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
-//     image: projectImg6,
-//     tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
-//     icons: [FaRobot, FaReact, FaCloud],
-//     demo: "#",
-//     code: "#",
-//   }
-// ];
+export const projects = [
+  {
+    title: "Portfolio Website",
+    description:
+      "A responsive personal portfolio website to showcase projects, skills, and contact information with smooth animations.",
+    image: projectImg1,
+    tech: ["React", "Tailwind CSS", "Framer Motion"],
+    icons: [FaReact, FaCss3Alt],
+    demo: "#",
+    code: "#",
+  },
+  {
+    title: "Posting App",
+    description:
+      "A full-stack posting application where users can create, view, and manage posts with authentication.",
+    image: projectImg2,
+    tech: ["Node.js", "Express", "EJS", "MongoDB"],
+    icons: [FaReact, FaNodeJs, FaDatabase],
+    demo: "#",
+    code: "#",
+  },
+  {
+    title: "Expense Tracker",
+    description:
+      "A frontend expense tracking application to manage daily expenses with category-wise summaries.",
+    image: projectImg3,
+    tech: ["React", "JavaScript", "CSS"],
+    icons: [FaReact, FaJs],
+    demo: "#",
+    code: "#",
+  },
+  {
+    title: "Weather App",
+    description:
+      "An API-based weather application that fetches real-time weather data based on user location or search.",
+    image: projectImg4,
+    tech: ["JavaScript", "Weather API", "HTML", "CSS"],
+    icons: [FaJs, FaCloudSun],
+    demo: "#",
+    code: "#",
+  },
+  {
+    title: "Quiz App",
+    description:
+      "An interactive quiz application with score tracking and multiple question sets.",
+    image: projectImg5,
+    tech: ["JavaScript", "React"],
+    icons: [FaJs, FaReact],
+    demo: "#",
+    code: "#",
+  },
+  {
+    title: "Task Manager",
+    description:
+      "A task management application to add, update, and delete tasks with a clean user interface.",
+    image: projectImg6,
+    tech: ["JavaScript", "React"],
+    icons: [FaJs, FaReact],
+    demo: "#",
+    code: "#",
+  },
+];
 
 // export const workData = [
 //   {

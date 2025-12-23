@@ -16,7 +16,7 @@ const Skills = () => {
       className="flex flex-col gap-20  py-20 text-white"
     >
       <div className="text-center">
-        <div className="heading text-4xl font-bold border-b-4 inline-block border-blue-500">
+        <div className="heading text-4xl md:text-6xl font-bold border-b-4 inline-block border-blue-500">
           <h1>
             My <span className="text-blue-500">Skills</span>
           </h1>
