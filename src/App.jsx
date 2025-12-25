@@ -7,10 +7,10 @@ function App() {
     <div className="relative min-h-screen overflow-hidden bg-dark-100">
       
       {/* ===== Background Layer (Interactive) ===== */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 pointer-events-auto">
         <Particles
           particleColors={["#ffffff", "#ffffff"]}
-          particleCount={800}
+          particleCount={1000}
           particleSpread={10}
           speed={0.1}
           particleBaseSize={100}
