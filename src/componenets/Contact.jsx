@@ -45,8 +45,8 @@ const sendEmail = (e) => {
 
         <div className="grid place-items-center mx-6 px-4">
           <div
-            className="w-full max-w-3xl p-4 md:p-8 border-2 border-zinc-300 
-                  bg-blue-950/40 rounded-xl shadow-lg"
+            className="w-full max-w-lg p-4 md:p-8 border-1 border-zinc-300 
+                  bg-blue-950/40 rounded-lg shadow-lg"
           >
             <form
               className="flex flex-col gap-4 md:gap-6"
@@ -62,7 +62,7 @@ const sendEmail = (e) => {
                 name="email"
                 required
                 placeholder="Your Email"
-                className="w-full px-5 py-4 rounded-md bg-zinc-800 
+                className="w-full px-3 py-3 rounded-md bg-zinc-800 
                    border border-zinc-300/20 focus:outline-none 
                    focus:border-blue-500"
               />
@@ -72,7 +72,7 @@ const sendEmail = (e) => {
                 name="name"
                 required
                 placeholder="Your Name"
-                className="w-full px-5 py-4 rounded-md bg-zinc-800 
+                className="w-full px-3 py-3 rounded-md bg-zinc-800 
                    border border-zinc-300/20 focus:outline-none 
                    focus:border-blue-500"
               />
@@ -82,7 +82,7 @@ const sendEmail = (e) => {
                 name="subject"
                 required
                 placeholder="Subject"
-                className="w-full px-5 py-4 rounded-md bg-zinc-800 
+                className="w-full px-3 py-3 rounded-md bg-zinc-800 
                    border border-zinc-300/20 focus:outline-none 
                    focus:border-blue-500"
               />
@@ -92,17 +92,17 @@ const sendEmail = (e) => {
                 name="message"
                 required
                 placeholder="Message"
-                className="w-full px-5 py-4 rounded-md bg-zinc-800 
+                className="w-full px-3 py-3 rounded-md bg-zinc-800 
                    border border-zinc-300/20 focus:outline-none 
-                   focus:border-blue-500 resize-none"
+                   focus:border-blue-500 resize-none "
               />
 
               <button
                 type="submit"
                 disabled={status === "sending"}
                 className="py-4 rounded-md font-semibold
-             bg-gradient-to-r from-blue-700 via-blue-500 to-blue-700
-             disabled:opacity-50"
+             bg-linear-to-r from-blue-700 via-blue-500 to-blue-700
+             disabled:opacity-50 hover:brightness-110 transition duration-300"
               >
                 {status === "sending" ? "Sending..." : "Send Message"}
               </button>

@@ -16,11 +16,11 @@ const Hero = () => {
 
 
         <div className="w-full md:w-3/5 text-center justify-center md:text-left">
-          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
             Hi, I'm <span className="text-blue-500">Shashank</span> Ponna
           </h1>
 
-          <h2 className="typewriter text-xl sm:text-2xl md:text-4xl font-semibold  mb-4">
+          <h2 className="typewriter text-xl sm:text-2xl lg:text-4xl font-semibold  mb-4">
             Full Stack Developer | Problem Solver
           </h2>
 
