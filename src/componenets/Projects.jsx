@@ -6,7 +6,7 @@ import { projects } from "../assets/assets";
 const Projects = () => {
   return (
     <motion.section
-      id="about"
+      id="projects"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: easeOut }}
