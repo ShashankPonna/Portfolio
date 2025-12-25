@@ -1,7 +1,8 @@
 import React from "react";
 import { motion,easeOut } from "framer-motion";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
-const ProjectCard = ({ title, description, image, tech }) => {
+
+const ProjectCard = ({ title, description, image, tech, code, demo }) => {
   return (
     <motion.section
       id="about"
@@ -34,16 +35,16 @@ const ProjectCard = ({ title, description, image, tech }) => {
             </div>
           </div>
         </div>
-        <div className="buttons flex justify-center p-5 transition-transform duration-400 hover:-translate-y-1 gap-5">
+        <div className="buttons flex justify-center p-5 gap-5">
           <div className=" border-2 border-transparent flex justify-center hover:bg-blue-700 transition duration-300 items-center gap-2 flex-1 text-center py-3 bg-blue-500 rounded-lg font-semibold">
             <FiExternalLink></FiExternalLink>
-            <a href=" " className="">
+            <a href={demo} className="">
               View Site
             </a>
           </div>
           <div className=" border-2 border-white flex justify-center items-center gap-2 flex-1 hover:bg-white/10 text-center py-3 rounded-lg font-semibold">
             <FiGithub></FiGithub>
-            <a href=" " className="">
+            <a href={code} className="">
               Code
             </a>
           </div>

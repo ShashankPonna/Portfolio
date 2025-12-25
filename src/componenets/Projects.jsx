@@ -1,4 +1,5 @@
 import React from "react";
+import { FaArrowRight } from "react-icons/fa";
 import { motion,easeOut } from "framer-motion";
 import ProjectCard from "./ProjectCard";
 import { projects } from "../assets/assets";
@@ -20,6 +21,10 @@ const Projects = () => {
                 <ProjectCard key={index} {...project}></ProjectCard>
             ))
         }
+        </div>
+        <div className=" flex justify-center items-center gap-2 md:w-fit md:mx-auto border-2 py-2 px-10 md:rounded-lg mx-11 text-center  hover:bg-white/10 transition">
+          <a href="https://github.com/ShashankPonna" className=" ">View More Projects</a>
+          <FaArrowRight></FaArrowRight>
         </div>
     </motion.section>
   );

@@ -15,12 +15,12 @@ import { SiCodecrafters, SiStripe } from "react-icons/si";
 import { FaCloud, FaCloudSun } from "react-icons/fa6";
 
 import profileImg from "../assets/profile.jpeg";
-import projectImg1 from "../assets/project1.avif";
-import projectImg2 from "../assets/project2.avif";
-import projectImg3 from "../assets/project3.avif";
-import projectImg4 from "../assets/project4.avif";
-import projectImg5 from "../assets/project5.avif";
-import projectImg6 from "../assets/project6.avif";
+import projectImg1 from "../assets/projectImg1.png";
+import projectImg2 from "../assets/projectImg2.png";
+import projectImg3 from "../assets/projectImg3.png";
+import projectImg4 from "../assets/projectImg4.png";
+import projectImg5 from "../assets/projectImg5.png";
+import projectImg6 from "../assets/projectImg6.png";
 
 export const assets = {
   profileImg,
@@ -73,7 +73,7 @@ export const projects = [
     tech: ["React", "Tailwind CSS", "Framer Motion"],
     icons: [FaReact, FaCss3Alt],
     demo: "#",
-    code: "#",
+    code: "https://github.com/ShashankPonna/Portfolio",
   },
   {
     title: "Posting App",
@@ -92,8 +92,8 @@ export const projects = [
     image: projectImg3,
     tech: ["React", "JavaScript", "CSS"],
     icons: [FaReact, FaJs],
-    demo: "#",
-    code: "#",
+    demo: "https://expensetracker-shashank.vercel.app/",
+    code: "https://github.com/ShashankPonna/Expense-Tracker",
   },
   {
     title: "Weather App",
@@ -102,8 +102,8 @@ export const projects = [
     image: projectImg4,
     tech: ["JavaScript", "Weather API", "HTML", "CSS"],
     icons: [FaJs, FaCloudSun],
-    demo: "#",
-    code: "#",
+    demo: "https://shashankponna.github.io/Weather-App/",
+    code: "https://github.com/ShashankPonna/Weather-App",
   },
   {
     title: "Quiz App",
@@ -112,8 +112,8 @@ export const projects = [
     image: projectImg5,
     tech: ["JavaScript", "React"],
     icons: [FaJs, FaReact],
-    demo: "#",
-    code: "#",
+    demo: "https://shashankponna.github.io/Quiz-App/",
+    code: "https://github.com/ShashankPonna/Quiz-App",
   },
   {
     title: "Task Manager",
@@ -122,8 +122,8 @@ export const projects = [
     image: projectImg6,
     tech: ["JavaScript", "React"],
     icons: [FaJs, FaReact],
-    demo: "#",
-    code: "#",
+    demo: "https://shashankponna.github.io/Task-Manager/",
+    code: "https://github.com/ShashankPonna/Task-Manager",
   },
 ];
 
