@@ -82,8 +82,8 @@ export const projects = [
     image: projectImg2,
     tech: ["Node.js", "Express", "EJS", "MongoDB"],
     icons: [FaReact, FaNodeJs, FaDatabase],
-    demo: "#",
-    code: "#",
+    demo: "https://www.linkedin.com/posts/shashank-ponna-82738b323_webdevelopment-backenddevelopment-nodejs-activity-7404955676562644992--yyN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFG_at8BX3-PoxBzyHrmokl1HfBawhBNBJg",
+    code: "https://github.com/ShashankPonna/Posting-App",
   },
   {
     title: "Expense Tracker",
