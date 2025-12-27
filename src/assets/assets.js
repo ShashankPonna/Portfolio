@@ -72,7 +72,7 @@ export const projects = [
     image: projectImg1,
     tech: ["React", "Tailwind CSS", "Framer Motion"],
     icons: [FaReact, FaCss3Alt],
-    demo: "#",
+    demo: "https://portfolio-shashank-p.vercel.app",
     code: "https://github.com/ShashankPonna/Portfolio",
   },
   {

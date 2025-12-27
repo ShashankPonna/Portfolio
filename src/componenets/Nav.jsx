@@ -48,13 +48,6 @@ const Nav = () => {
             <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
-            href="#education"
-            className="pointer-events-auto group relative transition duration-300 hover:text-blue-500 md:text-xl lg:text-2xl"
-          >
-            <span className="">Eduction</span>
-            <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
-          </a>
-          <a
             href="#contact"
             className="pointer-events-auto group relative transition duration-300 hover:text-blue-500 md:text-xl lg:text-2xl"
           >
@@ -117,15 +110,6 @@ const Nav = () => {
             className="group relative transition duration-300 hover:text-blue-500"
           >
             <span className="text-white">Projects</span>{" "}
-          </a>
-          <a
-            href="#education"
-            onClick={() => {
-              setmenu(!menu);
-            }}
-            className="group relative transition duration-300 hover:text-blue-500"
-          >
-            <span className="text-white">Eduction</span>{" "}
           </a>
           <a
             href="#contact"
