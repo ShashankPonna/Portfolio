@@ -82,7 +82,7 @@ export const projects = [
     image: projectImg2,
     tech: ["Node.js", "Express", "EJS", "MongoDB"],
     icons: [FaReact, FaNodeJs, FaDatabase],
-    demo: "https://www.linkedin.com/posts/shashank-ponna-82738b323_webdevelopment-backenddevelopment-nodejs-activity-7404955676562644992--yyN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFG_at8BX3-PoxBzyHrmokl1HfBawhBNBJg",
+    demo: "https://www.linkedin.com/in/shashank-ponna//",
     code: "https://github.com/ShashankPonna/Posting-App",
   },
   {
@@ -126,30 +126,3 @@ export const projects = [
     code: "https://github.com/ShashankPonna/Task-Manager",
   },
 ];
-
-// export const workData = [
-//   {
-//     role: "Senior Frontend Developer",
-//     company: "TechCorp Inc.",
-//     duration: "2020 - Present",
-//     description:
-//       "Leading frontend development for enterprise clients, implementing modern frameworks, and mentoring junior developers.",
-//     color: "purple"
-//   },
-//   {
-//     role: "Web Developer",
-//     company: "Digital Solutions LLC",
-//     duration: "2018 - 2020",
-//     description:
-//       "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
-//     color: "pink"
-//   },
-//   {
-//     role: "Junior Developer",
-//     company: "StartUp Ventures",
-//     duration: "2016 - 2018",
-//     description:
-//       "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
-//     color: "blue"
-//   }
-// ];
